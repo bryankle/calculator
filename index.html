@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset=“utf-8” />
+		<link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link  href="http://fonts.googleapis.com/css?family=Orbitron:400,500,700,900" rel="stylesheet" type="text/css" >
+    </head>
+	<body>
+<div class='container'>
+  <div id='calculator' class='draggable'>
+
+    <!-- TITLE -->
+
+    <div id='title' class='text-center'>
+      <h5><b>ELECTRONIC CALCULATOR</b></h5>
+    </div>
+
+    <!-- ENTRY BOX -->
+
+    <div id='entrybox' class='text-right'>
+      <div id='entry'>
+        <p id='answer'>0</p>
+      </div>
+      <div id='history'>
+        <p id='record'>0</p>
+      </div>
+    </div>
+
+    <!-- BUTTONS -->
+
+    <div id='buttons'>
+
+      <button class='btns' class='red' value='ac'>AC</button>
+      <button class='btns' class='red' value='ce'>CE</button>
+      <button class='btns' id='/'>/</button>
+      <button class='btns' id='*'>*</button>
+
+      <button class='btns' id='7'>7</button>
+      <button class='btns' id='8'>8</button>
+      <button class='btns' id='9'>9</button>
+      <button class='btns' id='-'>-</button>
+
+      <button class='btns' id='4'>4</button>
+      <button class='btns' id='5'>5</button>
+      <button class='btns' id='6'>6</button>
+      <button class='btns' id='+'>+</button>
+
+
+      <button class='btns' id='one'>1</button>
+      <button class='btns' id='2'>2</button>
+      <button class='btns' id='3'>3</button>
+      <button class='invisible'>N</button>
+
+      <button class='btns' id='zeroButton' >0</button>
+      <button class='btns'>.</button>
+      <button class='btns' id='equalButton' >=</button>
+
+    </div>
+    <!-- end buttons -->
+    <div id='tester'></div>
+  </div>
+  <!-- end calculator -->
+</div>
+<!-- end container -->
+
+	
+		
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="http://code.interactjs.io/v1.2.6/interact.min.js"></script>
+    <script src="js/script.js"></script>
+	</body>
+</html>
